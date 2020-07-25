@@ -31,5 +31,5 @@ apexchart() %>%
   )) %>% 
   ax_colors("#1E90FF") %>% 
   ax_xaxis(categories = n_manufac$manufacturer) %>% 
-  ax_title(text = "Gráfico: Cantidad de modelos por marca de auto") %>% 
-  ax_subtitle(text = "Dataset: mpg")
+  ax_title(text = "Gráfico: Cantidad de modelos de auto por fabricante entre 1999 a 2008") %>% 
+  ax_subtitle(text = "Dataset: Economía del combustible EPA")
